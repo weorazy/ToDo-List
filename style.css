@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #59CDE9 0%, #0A2A88 100%);
+}
+
+h2 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 127px;
+  text-align: center;
+  color: #FFF;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 24px 16px 24px 80px;
+  background: #eee;
+  font-size: 24px;
+  transition: 0.2s;
+
+//элементы списка не доступны для выбора
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  user-select: none;
+}
+
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+ul li:hover {
+  background: #ddd;
+}
+
+
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 24px 16px 24px 16px;
+  background : #FFFFFF;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+ background: #FFFFFF;
+}
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: linear-gradient(90deg, #BBD2C5 0%, #536976 50%, #292E49 100%);
+  color: #FFFFFF;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
